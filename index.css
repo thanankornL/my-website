@@ -1,0 +1,118 @@
+styles.css
+* {
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+    font-family:itim;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    border: px solid red;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+   
+}
+.LOGO{
+    display: flex;
+    list-style: none; 
+    margin-top: 15px;
+     
+}
+.LOGO a {
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    font-size: 19px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    background-color: bisque;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 10px 10px 15px rgba(113, 113, 113, 0.3);
+}
+
+.banner{
+    background-color: rgb(255, 234, 164);
+    color: rgb(52, 56, 59);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-info {
+  text-align: center;
+}
+.banner-info img{
+ width: 300px;
+ border-radius: 100%;
+}
+
+.IMG {
+    width: 100px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 15px; 
+
+}
+.IMG {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+
+}
+.text {
+    font-size: 15px;
+    margin-left: 5px;
+   border-radius: 15px;
+
+}
+.image-stack {
+    width: 100px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 15px; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    
+  }
+  
+  .image-stack .base {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .image-stack .overlay {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+.next{
+  margin-bottom: 5%;
+}
+
+
+
+.next a{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20;
+color: #ffffff;
+text-decoration: none;
+margin-left: 130px;
+margin-bottom: 50px;
+background-color: #ffe4b1;
+padding: 10px 30px ;
+border-radius: 30px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+border-color: aqua;
+}
+
